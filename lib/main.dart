@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Varela Round'
       ),
-      home: BitkubApiList(),
+      home: BitkubMenu(),
     );
   }
 }
 
-class BitkubApiList extends StatelessWidget {
+class BitkubMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextStyle textStyle = new TextStyle(
